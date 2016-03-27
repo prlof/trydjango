@@ -77,8 +77,9 @@ WSGI_APPLICATION = 'trydjango19.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysql',
+        'NAME': 'trydjango',
         'USER' : 'root',
+        'PASSWORD' : 'root',
         'HOST' : '127.0.0.1'
     }
 }
